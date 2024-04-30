@@ -1,7 +1,263 @@
 body {
-    background-color: black;
+    background-color: #363F46;
+    background-color: #191919;
 }
 
-p {
+header {
+    height: 119px;
+}
+
+.boxheader {
+    height: 67px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textbox {
+    width: 403px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textbox a {
     color: white;
+}
+
+.textbox a:visited {
+    color: rgba(17, 141, 168, 1);
+}
+
+.mainblock {
+    height: 913px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textimg {
+    height: 610px;
+    width: 530px;
+    color: white;
+    font-size: 70px;
+}
+
+.textimg p {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.block2 {
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.block2 p {
+    font-size: 64px;
+    color: white;
+}
+
+.block2 button {
+    width: 178px;
+    height: 51px;
+    background-color: #118DA8;
+    color: white;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.radioblock {
+    background-color: #000000;
+    width: 1300px;
+    height: 545px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 32px;
+}
+
+.radiotextblock {
+    color: white;
+    width: 778px;
+    height: 465px;
+}
+
+.radiotextblock p {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gear1 {
+    width: 73px;
+    height: 27px;
+    background-color: #191919;
+    border-radius: 6px;
+    border-color: transparent;
+    color: white;
+}
+
+.episode {
+    font-size: 17px;
+    color: #118DA8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.episode2 {
+    font-size: 64px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.episode3 {
+    font-size: 22px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.gear2 {
+    width: 208px;
+    height: 51px;
+    background-color: #118DA8;
+    border-radius: 6px;
+    color: white;
+    border-color: transparent;
+}
+
+.mrblack {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: 200px;
+}
+
+.mrtext1 {
+    font-family: 'DM Sans', sans-serif;
+    color: #118DA8;
+    font-size: 18px;
+}
+
+.mrtext2 {
+    font-size: 65px;
+    line-height: 79px;
+    margin: 0px;
+    letter-spacing: 2.88px;
+}
+
+.mrtext3 {
+    font-size: 22px;
+    width: 538px;
+    line-height: 33px;
+    opacity: 70%;
+}
+
+.brawler {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe {
+    width: 1300px;
+    height: 387px;
+    background-color: #000000;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subscribe2 {
+    display: flex;
+    align-items: center;
+}
+
+.sibst1 {
+    color: #118DA8;
+    font-size: 18px;
+}
+
+.sibst2{
+    color: white;
+    font-size: 72px;
+    letter-spacing: 2.88px;
+    line-height: 79.2px;
+    margin: 0px;
+}
+
+.subscribe2 input[type=text] {
+    width: 522px;
+    height: 40px; /* reduced the height for better user experience */
+    background-color: #191919;
+    color: #FFFFFF; /* added this to improve contrast */
+    padding: 10px; /* added this to improve user experience */
+    border: none; /* added this to improve the look and feel of the input field */
+    border-radius: 5px; /* added this for a better design */
+    margin-top: 20px;
+}
+
+.subscribe2 input[type=submit] {
+    background-color: #118DA8;
+    color: white;
+    width: 87px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+.centrovka {
+    display: flex;
+    justify-content: center;
+}
+
+.kubik {
+    width: 423px;
+    height: 321px;
+    border-radius: 32px;
+    background-color: #000000;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kubiktext1 {
+    color: white;
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: 11px;
+    margin-bottom: 10px;
+}
+
+.kubiktext2 {
+    color: white;
+    opacity: 70%;
+    line-height: 28px;
+    font-size: 24px;
+}
+
+.stroka {
+    display: flex;
+}
+
+.kubiki {
+    margin-top: 100px;
+}
+
+.paket {
+    display: flex;
 }
